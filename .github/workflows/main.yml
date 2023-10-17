@@ -33,8 +33,8 @@ jobs:
       - name: Commit and push if changed
         run: |
           git diff
-          git config user.name "Shenhe"
-          git config user.email "shenhe@github.com"
+          git config user.name "Yuri-Neko"
+          git config user.email "mimin@api-kyouka.my.id"
           git add .
           git commit -m "Joy's Anime Game stats"
           git push
